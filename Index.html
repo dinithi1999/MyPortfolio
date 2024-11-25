@@ -1,0 +1,164 @@
+
+<!-- n abbrevation can be used to generate boilerplate code of visual studio code by typing ! and press tab to generate the html code -->
+<!-- html is written first and then css is written to style the html code  -->
+
+<!--  html have two main parts head and body -->
+<!--  head tag is used to write css and javascript code -->
+<!--  body tag is used to write html code -->
+
+<!--  html code use the following syntax -->
+<!-- <!DOCTYPE html> is used to tell the browser that the document is an html document -->
+<!-- <html> tag is used to define the root of the html document -->
+<!-- <head> tag is used to define the head of the html document -->
+<!-- <title> tag is used to define the title of the html document -->
+<!-- <body> tag is used to define the body of the html document -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FirstHtmlPage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <!-- html is written in the body tag and css is written in the head tag -->
+
+    <div class="wrap">
+    <header> <!--header tag is usefull for rectangeular box at the top of the page -->
+        <!--div tag is used to define the division of the html document, its usefull for definning layout -->
+        <div class="header-left"> <!--class is used to define the class of the html document, its usefull for styling the html document, u can define the same class in other elements as well  -->
+            <a href="https://yourtechtalk.com/bug-bounty-programs-unleashing-the-power-of-ethical-hacking/">
+                <img src="images/logo.svg" alt="logo"> <!--img tag is used to define the image of the html document, src is used to define the source of the image, alt is used to define the alternative text of the image -->
+            </a>
+            <div class="devider">
+                <a href="#" class="home hide-mobile"  >Home</a>
+            </div>
+        </div>
+
+        <nav> <!--nav tag is used to define the navigation of the html document -->
+            <a href="#" class="menu-open hide-desktop">
+                <img src="images/menu.svg" alt="menu">
+            </a>
+                <ul>
+                    <li><a href="#" class="menu-open hide-desktop">
+                        <a href="#" class="menu-close">
+                            <img src="images/close.svg" alt="close menu">
+                        </a>
+                    </li>
+
+                        <li><a href="#" class="our-food">Home</a></li>
+                        <li><a href="#" class="Ingredients">About</a></li>
+                        <li><a href="#" class="studies">Services</a></li>
+                        <li><a href="#" class="FAQ">Contact</a>
+                </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Hello! Hello! Hello!</h1>
+        <p class="subhead">
+            this is the samople pharagraph written in main tag of html body 
+            sample pharagraph written in main tag of html body
+            sample pharagraph written in main tag of html body
+            sample pharagraph written in main tag of html body
+        </p>
+        <a href="#" class="primary-cta">Get Bunkers</a>
+    </main>
+
+<div class="cat-container">
+    <div class="cat">
+        <img src="images/cat.svg" alt="cat1">
+    </div>
+
+    <div class="inner-circle">
+
+    </div>
+
+    <div class="outer-circle">
+
+    </div>
+</div>
+
+</div>
+
+<script>
+    const menu = document.querySelector('nav ul');
+    const menuBtn = document.querySelector('.menu-open');
+    const closeBtn = document.querySelector('.menu-close');
+
+    menuBtn.addEventListener('click', () => {
+        menu.classList.add('open');
+    });
+
+    closeBtn.addEventListener('click', () => {
+        menu.classList.remove('open');
+    });
+
+
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+<!--  html code use the following elements -->
+<!-- <h1> to <h6> tag is used to define the headings of the html document -->
+<!-- <p> tag is used to define the paragraph of the html document -->
+<!-- <a> tag is used to define the anchor of the html document -->
+<!-- <img> tag is used to define the image of the html document -->
+<!-- <ul> tag is used to define the unordered list of the html document -->
+<!-- <ol> tag is used to define the ordered list of the html document -->
+<!-- <li> tag is used to define the list of the html document -->
+<!-- <table> tag is used to define the table of the html document -->
+<!-- <tr> tag is used to define the row of the table of the html document -->
+<!-- <th> tag is used to define the header of the table of the html document -->
+<!-- <td> tag is used to define the data of the table of the html document -->
+<!-- <form> tag is used to define the form of the html document -->
+<!-- <input> tag is used to define the input of the form of the html document -->
+<!-- <button> tag is used to define the button of the form of the html document -->
+<!-- <label> tag is used to define the label of the form of the html document -->
+<!-- <select> tag is used to define the select of the form of the html document -->
+<!-- <option> tag is used to define the option of the select of the form of the html document -->
+<!-- <textarea> tag is used to define the textarea of the form of the html document -->
+<!-- <div> tag is used to define the division of the html document -->
+<!-- <span> tag is used to define the span of the html document -->
+<!-- <br> tag is used to define the break of the html document -->
+<!-- <hr> tag is used to define the horizontal rule of the html document -->
+<!-- <style> tag is used to define the style of the html document -->
+<!-- <script> tag is used to define the script of the html document -->
+<!-- <link> tag is used to define the link of the html document -->
+<!-- <meta> tag is used to define the metadata of the html document -->
+<!-- <base> tag is used to define the base of the html document -->
+<!-- <iframe> tag is used to define the iframe of the html document -->
+<!-- <canvas> tag is used to define the canvas of the html document -->
+<!-- <svg> tag is used to define the svg of the html document -->
+<!-- <audio> tag is used to define the audio of the html document -->
+<!-- <video> tag is used to define the video of the html document -->
+<!-- <embed> tag is used to define the embed of the html document -->
+<!-- <object> tag is used to define the object of the html document -->
+<!-- <param> tag is used to define the param of the html document -->
+<!-- <source> tag is used to define the source of the html document -->
+<!-- <track> tag is used to define the track of the html document -->
+<!-- <map> tag is used to define the map of the html document -->
+<!-- <area> tag is used to define the area of the html document -->
+<!-- <abbr> tag is used to define the abbreviation of the html document -->
+<!-- <address> tag is used to define the address of the html document -->
+<!-- <article> tag is used to define the article of the html document -->
+
+

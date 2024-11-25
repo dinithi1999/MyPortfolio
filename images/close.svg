@@ -1,0 +1,7 @@
+<svg width="40" height="40" xmlns="http://www.w3.org/2000/svg">
+    <!-- First Line (Diagonal from top-left to bottom-right) -->
+    <line x1="10" y1="10" x2="30" y2="30" stroke="#000" stroke-width="4" />
+    
+    <!-- Second Line (Diagonal from top-right to bottom-left) -->
+    <line x1="30" y1="10" x2="10" y2="30" stroke="#000" stroke-width="4" />
+</svg>
